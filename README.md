@@ -33,7 +33,7 @@ window.onload = function() {
         zoom: 8
     });
 
-    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";       
 
     var locations = [
         { lat: 40.785091, lng: -73.968285 },
