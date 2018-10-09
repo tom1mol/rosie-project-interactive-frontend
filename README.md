@@ -3,12 +3,21 @@ api AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE
 
 links:
 
+maps:
+
 adding the map element                          https://youtu.be/5UlJ7Eic44M
 getting the API key                             https://youtu.be/5vATo6DcerA
 referencing the js files                        https://youtu.be/UVPq2Agf6rk
 rendering the map                               https://youtu.be/9W9LfznPMfQ
 adding markers                                  https://youtu.be/SlRaPAWbPBU
 moving code ìnto its own script                 https://youtu.be/94KO_Br-dwI
+
+Github API:
+
+github form                                     https://youtu.be/M_WahXaO6ec
+initial data retrieval setup                    https://youtu.be/vT_xDMlP1LA
+making promises                                 https://youtu.be/mR0eu2zF0KI
+rendering user data                             https://youtu.be/2dfYlpQLgXs
 
 
 
