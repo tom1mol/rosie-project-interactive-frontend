@@ -19,11 +19,11 @@ function userInformationHTML(user) {    //return html code we use to render the 
 }
 
 function repoInformationHTML(repos) {                    //function to render repo info(html)
-  if (repos.length == 0) {
+  if (repos.length == 0) {      //if repos length = 0..pass back html that says no repos
       return `<div class="clearfix repo-list">No repos!</div>`;
   } 
   
-  var listItemsHTML = repos.map(function(repo) {        //map each repo to a list element. rtn <li>
+  var listItemsHTML = repos.map(function(repo) { //array of listitems.function that takes parameters repo. map each repo to a list element. rtn <li>
       return `<li>
                   <a href="${repo.html_url}" target="_blank">${repo.name}</a> <!--url to repo that opens in new page. txt will be name of repo-->
               </li>`;
@@ -41,6 +41,8 @@ function repoInformationHTML(repos) {                    //function to render re
 
 
 function fetchGitHubInformation(event) {            /* takes parameter of event */
+    $("#gh-user-data").html("");
+    $("#gh-repo-data").html("");
     
     var username = $("#gh-username").val();             //store usernamke retrieved from input field. jquery selector..select ID gh-username and rtn value
     if(!username) {             //if not username
@@ -73,3 +75,5 @@ function fetchGitHubInformation(event) {            /* takes parameter of event 
                 }
             });
 }
+
+$(document).ready(fetchGitHubInformation);
