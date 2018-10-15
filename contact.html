@@ -6,6 +6,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />   <!--2.3.1 from cdnjs.com -->
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
         <meta name="viewport" content="width=device-width, initial-scale-1">
+        
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+        <script type="text/javascript">      
+            (function(){
+                emailjs.init("user_YBmRaYq6IFscJDE7nzreY");
+                emailjs.send("gmail", "rosie", {name: "t", notes: "The project that I want is..."});  
+            })();           // code for link to email. rosie declared project name(emailJS). name t is my declared name(emailJS)
+        </script>
     </head>
     <body>
         <header class="container-fluid">
